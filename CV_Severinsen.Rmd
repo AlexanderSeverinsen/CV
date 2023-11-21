@@ -1,0 +1,105 @@
+---
+name: Alexander
+surname: Severinsen
+position: "Machine Learning Engineer"
+address: "Øvre Gunnaråsen 21, 3475 Sætre"
+phone: +47 993 77455
+email: "alexander.severinsen@gmail.com"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+ * 49 years old, married to Linda, 3 kids 
+ * Likes running, skiing, hunting and fly fishing
+ * Avid user of R and SQL. Enthusiastic Python user
+ * Keen interest in report automation and analytics as web applications
+
+
+# Work experience
+
+```{r}
+library(tibble)
+tribble(
+  ~Year, ~Type, ~Desc,
+  "2022-", "Machine Learning Engineer", "Aneo AS",
+  "2020-2022", "Machine Learning Engineer", "Trønderenergi Kraft AS",
+  "2016-2020", "Co-founder / Data scientist", "Storekeeper AS. Energy mangement system. Acquired by Trønderenergi AS", 
+  "2012-2017", "Owner, consulting / Data scientist", "Severinsen AS",
+  "2010-2011", "Associate Professor", "UiT Arctic University of Tromsø",
+  "2007-2010", "Senior CRM Analyst", "Telenor SA",
+  "2000-2007", "Market Researcher", "Compario AS"
+) %>% 
+  brief_entries(
+    glue::glue("{Type}"),
+    Year, 
+    Desc
+  )
+```
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Topic, ~ Year, ~ Institution, ~ Where,
+  "Industrial PhD", "Increased sustainability in the food retail sector through Measurement and Verification of energy conservation measures", "2018-2021", "Norwegian University of Life sciences", "Ås, Norway",
+  "Research fellow", "Econometric & consumer modeling", "2003", "Massey University", "Palmerston North, New Zealand",
+  "Master degree",  "Automation of queries on the web",  "1994-2000", "The Norwegian College of Fishery Science", "Tromsø, Norway"
+) %>% 
+  detailed_entries(Degree, Year, Topic, Institution, Where)
+# The QMSS Summer school
+```
+
+# Publications
+
+-    Severinsen, Alexander, and Øystein Myrland. 2022. *"ShinyRBase: Near real-time energy saving models using reactive programming.*. Applied Energy, Volume 325, 119798. https://doi.org/10.1016/j.apenergy.2022.119798
+
+-    Severinsen, Alexander, and Øystein Myrland. 2022. *"Statistical learning to estimate energy savings from retrofitting in the Norwegian food retail market."*. Renewable and Sustainable Energy Reviews, Volume 167, 112691. https://doi.org/10.1016/j.rser.2022.112691. 
+
+-    Severinsen, Alexander, and Rob J. Hyndman. 2019. *"Quantification of Energy Savings from Energy Conservation Measures in Buildings Using Machine Learning."* In ECEEE Summer Study Proceedings, 757--66. https://research.monash.edu/en/publications/quantification-of-energy-savings-from-energy-conservation-measure
+
+-    Fagerström, Jonathan, Kari Aamodt Espegren, Josefine Selj, and Alexander Severinsen. 2019. [*"Forecasting and Technoeconomic Optimization of PV-Battery Systems for Commercial Buildings."*](https://www.eceee.org/library/conference_proceedings/eceee_Summer_Studies/2019/5-smart-and-sustainable-communities/forecasting-and-technoeconomic-optimization-of-pv-battery-systems-for-commercial-buildings/). In ECEEE Summer Study Proceedings, 949--54. 
+
+- Lind, A., J. Selj, J. A. Tsanakas, P. Arnestad, and A. Severinsen. 2017. [*"Shaving the Peaks through Statistical Learning: Smart Use of Solar Energy and Storage Solutions."*](https://www.eceee.org/library/conference_proceedings/eceee_Summer_Studies/2017/5-buildings-and-construction-technologies-and-systems/shaving-the-peaks-through-statistical-learning-smart-use-of-solar-energy-and-storage-solutions/). In ECEEE-Summer Study Proceedings, 1177–84.
+
+- Severinsen, Alexander, and Helen Marita Holst. 2017. [*"Using Machine Learning and Mathematical Programming to Benchmark Energy Efficiency of Buildings."*](https://www.eceee.org/library/conference_proceedings/eceee_Summer_Studies/2017/5-buildings-and-construction-technologies-and-systems/using-machine-learning-and-mathematical-programming-to-benchmark-energy-efficiency-of-buildings/). In ECEEE-Summer Study Proceedings, 1083-1089
+
+# Unpublished working papers
+
+-    Severinsen, Alexander, and Helen Marita Holst Sørensen. 2022. *"A 3-step framework to benchmark potential and actual energy savings in retrofitting projects."*. Currently under review in Sustainable Cities and Society. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4181531
+
+- Severinsen, Alexander, and Helen Marita Holst. 2009. *"Benchmarking the Advertising Efficiency of the Top 100 US Advertisers"*
+
+- Severinsen, Alexander, and Øystein Myrland. 2006. *"Synergy or Substitutability? The Joint Effect of Advertising and Promotion in Multiple Media"*.
+
+# Conference presentations
+
+- "Lastprognoser - et 60 sekunders glimt". Horisont 2020. 20 Mars 2019. Det Norske Teater. https://www.youtube.com/watch?v=30pkeJ3Ajow&t=297s
+
+- "Quantification of Energy Savings from Energy Conservation Measures in Buildings Using Machine Learning". ECEEE 2019 Summer Study on energy efficiency. June 7. https://paperpile.com/shared/m2NqR1
+
+– Alexander, Severinsen, Katja Grünberg. "Completely Missing Subject? Handling Missing Data in the Social Sciences". QMSS Conference. June 20-23. 2007. Prague. https://paperpile.com/shared/EsSmdi
+
+- "Cognitive Models as Indicators of Success: Measuring the Effect of Generic Advertising". Johan Arndt Markedsføringskonferanse. 25-27 April 2007. https://paperpile.com/shared/hy5aD7
+
+- Severinsen, Alexander, and Terje, Vassdal. "Balancing Aggresive and Defensive Marketing Strategies Using Efficient Time as a Benchmark". Johan Arndt Markedsføringskonferanse. 25-27 April 2007. https://paperpile.com/shared/cXXehC
+
+- Alexander, Severinsen. "The Choice Between Originality, or Replicating Old Work? A Case Study of How to Improve Confidence through Statistical Simulation". 18 July 2006. Research Methods Festival. Oxford. 
+
+- Severinsen, Alexander, and Øystein Myrland. "The Joint Effect of Promotion in Multiple Media - Exceeding the Level of
+Profitable Communication". December 1-6. ANZMAC. Brisbane. https://paperpile.com/shared/q0Q8GG
+
+
+
+
+
+
+ 
