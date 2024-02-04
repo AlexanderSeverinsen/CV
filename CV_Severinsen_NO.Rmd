@@ -59,6 +59,13 @@ tribble(
 # The QMSS Summer school
 ```
 
+# Applikasjoner
+
+- Aneo solcelleanalysen. Utviklet en wepapplikasjon for å estimere solcellers produksjonspotensiale på tak, overvåkning av norsk solcelleproduksjon, samt visualisering av eksisterende installasjoner av solceller på norske tak. Se https://solar-analytics-app.azurewebsites.net/.
+
+- Aneo EOS. Tech-lead for utvikling av Aneo EOS (tidligere Storekeeper). Løsningen overvåker i dag energibruken i mer enn 2000 bygg, inkl. implementering og automatiserte metoder for Måling og verifikasjon av energitiltak i bygg. Delaktig i installasjon av sensorer som måler energibruk for undermålere på sekundnivå, visualisering og alarmering i sanntid. Se https://www.aneo.com/tjenester/retail/eos/
+
+
 # Publikasjoner
 
 -    Severinsen, Alexander, and Øystein Myrland. 2022. *ShinyRBase: Near real-time energy saving models using reactive programming*. Applied Energy, Volume 325, 119798. https://doi.org/10.1016/j.apenergy.2022.119798
@@ -67,7 +74,7 @@ tribble(
 
 -    Severinsen, Alexander, and Rob J. Hyndman. 2019. *Quantification of Energy Savings from Energy Conservation Measures in Buildings Using Machine Learning*. In ECEEE Summer Study Proceedings, 757--66. https://research.monash.edu/en/publications/quantification-of-energy-savings-from-energy-conservation-measure
 
--    Severinsen, Alexander, and Helen Marita Holst Sørensen. 2022. *A 3-step framework to benchmark potential and actual energy savings in retrofitting projects*. Currently under review in Sustainable Cities and Society. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4181531
+-    Severinsen, Alexander, and Helen Marita Holst Sørensen. 2022. *A 3-step framework to benchmark potential and actual energy savings in retrofitting projects*. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4181531
 
 -    Fagerström, Jonathan, Kari Aamodt Espegren, Josefine Selj, and Alexander Severinsen. 2019. [*Forecasting and Technoeconomic Optimization of PV-Battery Systems for Commercial Buildings*](https://www.eceee.org/library/conference_proceedings/eceee_Summer_Studies/2019/5-smart-and-sustainable-communities/forecasting-and-technoeconomic-optimization-of-pv-battery-systems-for-commercial-buildings/). In ECEEE Summer Study Proceedings, 949--54. 
 
@@ -77,6 +84,10 @@ tribble(
 
 
 # Presentasjoner
+
+- PhD forsvar. "Økt bærekraft ved Måling og Verifikasjon av energitiltak i dagligvaresektoren". 13 April 2023. https://alexanderseverinsen.github.io/phd-defence/phd_thesis_defence.html#/section
+
+- Prøveforelesning. "The rebound effect in building heating retrofits: Theory and empirical evidence". 13 April 2023. https://alexanderseverinsen.github.io/Trial-lecture/trial_lecture.html#/
 
 - "Quantification of Energy Savings from Energy Conservation Measures in Buildings Using Machine Learning". ECEEE 2019 Summer Study on energy efficiency. June 7. https://paperpile.com/shared/m2NqR1
 
